@@ -4,7 +4,7 @@ function calcularQuadrado(numeros) {
     const resultado = numeros.map(numero => {
         const valor = numero > 10 ? numero ** 2 : numero;
         return valor;
-    });
+    }).filter(numeros => numeros > 10);
     return resultado;
 }
 

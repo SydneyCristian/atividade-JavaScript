@@ -9,9 +9,9 @@ function resultadoNotas(alunos) {
 }
 
 const alunos = [
-    { nome: 'Sydney', nota: 8 },
-    { nome: 'Diogo', nota: 7 },
-    { nome: 'Raimundo', nota: 6 }
+    { nome: 'Sydney', nota: 8, status: "" },
+    { nome: 'Diogo', nota: 7, status: "" },
+    { nome: 'Raimundo', nota: 6, status: "" }
 ]
 const notas = resultadoNotas(alunos);
 console.log(notas);
